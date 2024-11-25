@@ -5,7 +5,7 @@ insert into git values
 (2, 'susi'),
 (3, 'ajay');
 
-create stream gitstream on table git;
+create or replace stream gitstream on table git;
 
 create task t
 warehouse = compute_wh
