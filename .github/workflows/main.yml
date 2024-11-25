@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       sql_file_path:
-        description: 'sql/**'
+        description: 'sql/snow.sql'
         required: true
 
 jobs:
