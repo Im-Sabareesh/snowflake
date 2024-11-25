@@ -1,17 +1,6 @@
 use schema saba;
 
-create or replace table git (id number, name varchar);
+drop table git;
+drop stream gitstream;
 
-insert into git values
-(1, 'saba'),
-(2, 'susi'),
-(3, 'ajay');
-
-create or replace stream gitstream on table git;
-
-create task t
-warehouse = compute_wh
-schedule = '1 minute'
-as
-insert into git values
-(6, 'vijay');
+drop task t;
