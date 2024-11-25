@@ -1,11 +1,11 @@
 name: Run SQL Queries in Snowflake from a File
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'sql/**'
+  workflow_dispatch:
+    inputs:
+      sql_file_path:
+        description: 'sql/**'
+        required: true
 
 jobs:
   execute-sql:
