@@ -1,3 +1,5 @@
+use schema saba;
+
 create or replace table git (id number, name varchar);
 
 insert into git values
