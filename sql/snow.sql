@@ -3,8 +3,7 @@ create or replace table git (id number, name varchar);
 insert into git values
 (1, 'saba'),
 (2, 'susi'),
-(3, 'ajay'),
-(4, 'tamil');
+(3, 'ajay');
 
 create stream gitstream on table git;
 
@@ -13,4 +12,4 @@ warehouse = compute_wh
 schedule = '1 minute'
 as
 insert into git values
-(5, 'vijay');
+(6, 'vijay');
