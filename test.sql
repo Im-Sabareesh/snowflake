@@ -1,2 +1,2 @@
-create table vikas (id number, name varchar);
-create stream vikas on table vikas;
+create table sabareeshk (id number, name varchar);
+create stream sabareesh on table sabareeshk;
