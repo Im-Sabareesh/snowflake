@@ -1025,3 +1025,5 @@ INSERT INTO `user_details` (`user_id`, `username`, `first_name`, `last_name`, `g
 (998, 'brown66', 'bell', 'mark', 'Female', '77cb9a330118fa84d027315c0740df1c', 1),
 (999, 'wright26', 'morgan', 'cooper', 'Male', 'e8c529514ec002b6bb1ce139adc2eaf8', 1),
 (1000, 'james81', 'daniel', 'brown', 'Female', '6ce961f58c6f12943531080a444f570d', 1);
+
+create table test2222 (id number, name varchar);
