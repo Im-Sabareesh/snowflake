@@ -1,5 +1,5 @@
 --
--- Database: `samplevideo_db`
+-- Database: `sabareesh`
 --
 
 -- --------------------------------------------------------
