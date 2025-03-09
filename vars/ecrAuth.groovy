@@ -1,4 +1,4 @@
-def call() {
- sh 'aws ecr get-login-password --region ${env.REGION}  | docker login --username AWS --password-stdin ${env.ACCOUNT}.dkr.ecr.${env.REGION}.amazonaws.com'
+def call(string region, string account) {
+aws ecr get-login-password --region ${region} | docker login --username AWS --password-stdin ${account}.dkr.ecr.${region}.amazonaws.com
 }
 
